@@ -1,0 +1,210 @@
+/* start body */
+
+body{
+    color: black
+}
+/* end body */
+
+
+/* start debug */
+
+.bg-blue {
+    background-color: azure
+}
+
+.bg-red{
+    background-color: antiquewhite
+}
+/* end debug */
+
+
+/* start container */
+
+.container{
+    margin: 20px;
+    overflow: auto;
+    width: 75%;
+}
+
+.container-full{
+    margin: 20px;
+    overflow: auto;
+    width: 90%;
+}
+/* end container */
+
+
+/* start logo */
+
+.logo{
+    text-align: center;
+}
+/* end logo */
+
+
+/* :start hyperlink */
+
+a:link,
+a:visited{
+    color:rgb(11, 70, 179);
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    color: black;
+    text-decoration: underline;
+}
+/* end hyperlink */
+
+
+/* start menu */
+
+.menu ul{
+    background-color:bisque;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px  rgba(0,0,0,.2),
+        0 6px 10px 0  rgba(0,0,0,.14),
+        0 1px 18px 0px  rgba(0,0,0,.12);
+}
+
+.menu li{
+    border-right: 1px solid darksalmon;
+    display: inline-block;
+}
+
+.menu a{
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 15px 92px;
+}
+
+.menu a:hover{
+    background-color:black;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.menu .active{
+    background-color:black;
+    color: cornsilk;
+    text-decoration: none;
+}
+/* end menu */
+
+/* start heading */
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    letter-spacing: 1px
+}
+h1{
+    font-size: 28px
+}
+h2{
+    font-size: 24px
+}
+h3{
+    font-size: 18px
+}
+h4{
+    font-size: 16px
+}
+h5{
+    font-size: 14px
+}
+h6{
+    font-size: 13px
+}
+/* end heading */
+
+
+/* start jumbotron */
+
+.jumbotron{
+    background-color: beige;
+    border: 1px solid bisque;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+.jumbotron h1{
+    font-size: 32px;
+    padding:  0 20px;
+}
+
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+
+/* start kotak */
+
+.kotak{
+    float: left;
+    width: 100%;
+}
+
+.xbox{
+    float: right;
+    width: 49.5%;
+}
+
+.xbox1{
+    float: left;
+    width: 49.5%;
+}
+
+.xbox .isi,
+.xbox1 .isi{
+    height: 130px;
+}
+/* end kotak */
+
+
+/* start box */
+
+.box-heading{
+    background-color:cornsilk;
+    border: 1px solid bisque;
+    border-radius: 3px 3px  0 0;
+    margin: 0;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.box-heading h4{
+    font-size: 20px;
+    margin: 0;
+}
+
+.isi{
+    background-color: #ffffff;
+    border: 1px solid bisque;
+    border-radius: 3px 3px  0 0;
+    margin: 0;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+/* end box */
+
+
+/* star copyright */
+
+.copyright{
+    font-size: 20px;
+}
+/* end copyright */
+
+
+/* start font */
+
+.font{
+    font-size: 20px
+}
+/* end fond */
